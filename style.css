@@ -1,0 +1,112 @@
+/* style.css */
+
+/* General styles */
+body {
+  font-family: 'Montserrat', sans-serif; /* Replace with your desired font */
+  color: #333;
+  background-color: #f5f5f5;
+  text-align: center; /* Center all content by default */
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin:   
+ 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover   
+ {
+  color: #f2f2f2;
+}
+
+/* Hero section */
+#hero {
+  background-image: url('https://thumbs.dreamstime.com/b/cleaning-black-tombstone-cloth-water-female-hands-visible-cleaning-black-tombstone-cloth-water-female-295246009.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Section headings */
+h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Services */
+.usluga {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+/* Gallery */
+.galerija-item {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Testimonials */
+.svjedocanstvo {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+/* Contact */
+#kontakt {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .galerija-item {
+    width: 50%;
+  }
+
+  .usluga {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .galerija-item {
+    width: 100%;
+  }
+}
+
+.img{
+  align-items: center;
+}
