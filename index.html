@@ -1,94 +1,63 @@
 <!DOCTYPE html>
 <html lang="hr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Čišćenje   
- Grobova</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usluge Čišćenja</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Čišćenje Grobova</h1>
-        <nav>
-            <ul>
-                <li><a href="#o-nama">O nama</a></li>
-                <li><a href="#usluge">Usluge</a></li>
-                <li><a href="#galerija">Galerija</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Yeldy Usluge Čišćenja</div>
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href="#about">O nama</a></li>
+        <li><a href="#services">Usluge</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </div>
+  </header>
 
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Profesionalne Usluge Čišćenja</h1>
+      <p>Specijalizirani smo za čišćenje i očuvanje spomenika i nadgrobnih spomenika.</p>
+      <button>Saznajte više</button>
+    </div>
+  </section>
 
-    <section id="hero">
-        <img src="https://thumbs.dreamstime.com/b/cleaning-black-tombstone-cloth-water-female-hands-visible-cleaning-black-tombstone-cloth-water-female-295246009.jpg" class="img" alt="Hero Image">
-        <br>
-        <br>
-        <h2>Poštujemo uspomene</h2>
-    </section>
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <h2>Naše Usluge</h2>
+    <h3>Čišćenje Nadgrobnih Spomenika</h3>
+    <p>
+      Naš profesionalni tim specijalizirao se za čišćenje i obnavljanje izgleda nadgrobnih spomenika i grobova, osiguravajući poštovanje i dobro održavana posljednja počivališta.
+    </p>
+    <!-- Add the Image Here -->
+    <div class="service-image">
+      <img src="https://media.istockphoto.com/id/1350020365/photo/marble-tombstone-being-washed-by-woman.jpg?s=612x612&w=0&k=20&c=JlP6AKYx1R6Xu8_a8Zcq5-q_yrWj0VkgO3_gBP6ZZiI=" alt="Čišćenje Nadgrobnog Spomenika">
+    </div>
+  </section>
 
-    <section id="o-nama">
-        <h2>O nama</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation   
- ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </section>
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <h2>Kontaktirajte Nas</h2>
+    <p>Za sve upite, slobodno nas kontaktirajte putem donjih podataka:</p>
+    <form class="contact-form">
+      <label for="name">Ime:</label>
+      <input type="text" id="name" name="name" required>
 
-    <section   
- id="usluge">
-        <h2 class="usluga2">Usluge</h2>
-        <div class="usluga">
-            <h3>Čišćenje nadgrobnih spomenika</h3>
-            <p>Detaljan popis:
-              Čišćenje nadgrobnih spomenika
-              Uklanjanje korova i mahovine
-              Pranje i poliranje kamena
-              Sadnja cvijeća i biljaka
-              Postavljanje svijeća i lampiona
-              Uređenje okoliša
-              Redovito održavanje
-              Dodatne usluge:
-              Restauracija oštećenih spomenika
-              Dizajn i izrada cvjetnih aranžmana
-              Sezonsko uređenje
-              Opis usluga: Kratko i jasno objasni svaku uslugu, naglasivši koristi za klijenta. Npr. "Pranje i poliranje kamena vraća sjaj vašem spomeniku i čini ga otpornijim na vremenske utjecaje."</p>
-        </div>
-        <div class="usluga">
-            <h3>Košenje trave</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="usluga">
-            <h3>Sadnja cvijeća</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </section>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
 
-    <section id="galerija">
-        <h2>Galerija</h2>
-        <div class="galerija-item">
-            <img src="galerija-1.jpg" alt="Galerija 1">
-        </div>
-        <div class="galerija-item">
-            <img src="galerija-2.jpg" alt="Galerija 2">
-        </div>
-        </section>
+      <label for="message">Poruka:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
 
-    <section id="svjedocanstva">
-        <h2>Svjedočanstva</h2>
-        <div class="svjedocanstvo">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-            <p>- Ivan Ivanov</p>
-        </div>
-        </section>
+      <button type="submit">Pošaljite</button>
+    </form>
+  </section>
 
-    <section id="kontakt">
-        <h2>Kontakt</h2>
-        <p>Kontaktni broj: +385 123 456 789</p>
-        <p>Email: info@ciscenjegrobova.hr</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Čišćenje Grobova</p>
-    </footer>
 </body>
 </html>
